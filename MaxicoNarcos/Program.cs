@@ -154,11 +154,80 @@ namespace MaxicoNarcos
             //Console.WriteLine("Resul 01: ({0}+{1})* {2}: {3}", x,y,z,Result1);
             //Console.WriteLine("Resul 02: ({0}*{1}) + ({1}*{2}): {3}", x, y, z, Result2);
 
-            //Example -11: 
+            //Example -11: Write a C# Sharp program that takes an age (for example 20)
+            //as input and prints something as "You look older than 20"
+
+            //Console.WriteLine("Enter Your age");
+            //int age = Convert.ToInt32(Console.ReadLine());
+
+            //if (age <= 20)
+            //{
+            //    Console.WriteLine("Your are smart",age);
+            //}
+            //else
+            //    Console.WriteLine("You are olderthan 20",age);
+
+            //Example -12:Write a C# program to that takes a number as input and display
+            //it four times in a row (separated by blank spaces),
+            //and then four times in the next row, with no separation.
+
+            //Console.WriteLine("Enter The Value");
+            //int a = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("{0}{0}{0}{0}",a);
+            //Console.WriteLine("{0} {0} {0} {0}", a);
+            //Console.WriteLine("{0}   {0}   {0}   {0}", a);
+            //Console.WriteLine("{0}    {0}    {0}    {0}", a);
+
+            //Example -13: Write a C# program that takes a number as input and
+            //then displays a rectangle of 3 columns wide and 5 rows tall using that digit.
+
+            //Console.WriteLine("Enter The Value of X");
+            //int x = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("{0}{0}{0}", x);
+            //Console.WriteLine("{0} {0}", x);
+            //Console.WriteLine("{0} {0}", x);
+            //Console.WriteLine("{0} {0}", x);
+            //Console.WriteLine("{0}{0}{0}", x);
+
+            //Example -14: Write a C# program to convert from celsius degrees to Kelvin and Fahrenheit.
+
+            //Console.WriteLine("Enter The Value");
+            //double c = Convert.ToDouble(Console.ReadLine());
+
+            //var Result01 = (c - 32) * 0.55;
+            //Console.WriteLine("Fahrenheit:{0}",Result01);
+
+            //var Result02 = (c *1.8) + 32;
+            //Console.WriteLine("celsius:{0}", Result02);
+
+            //Example -15: Write a C# program remove specified a character from a non-empty string
+            //using index of a character
+
+            //Console.WriteLine("Enter The Starting Point");
+            //var a = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Number of string to be removed");
+            //var b = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Enter The String");
+            //var c =(Console.ReadLine());
+
+            //Exercise removeString = new Exercise();
+            //var Vremove = removeString.Remove(a, b, c);
+
+            //Console.WriteLine(Vremove);
 
 
+            //Example -16: Write a C# program to create a new string from a given string
+            //where the first and last characters will change their positions
 
-
+            Console.WriteLine("Enter The Value");
+            var Chr = (Console.ReadLine());
+            Exercise ValueReplaced = new Exercise();
+            var output = ValueReplaced.FnLValueReplaced(Chr);
+            Console.WriteLine(output);
 
         }
     }
