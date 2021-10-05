@@ -1,0 +1,14 @@
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\bin\Debug\netcoreapp3.1\MaxicoNarcos.exe
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\bin\Debug\netcoreapp3.1\MaxicoNarcos.deps.json
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\bin\Debug\netcoreapp3.1\MaxicoNarcos.runtimeconfig.json
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\bin\Debug\netcoreapp3.1\MaxicoNarcos.runtimeconfig.dev.json
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\bin\Debug\netcoreapp3.1\MaxicoNarcos.dll
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\bin\Debug\netcoreapp3.1\MaxicoNarcos.pdb
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\obj\Debug\netcoreapp3.1\MaxicoNarcos.csproj.AssemblyReference.cache
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\obj\Debug\netcoreapp3.1\MaxicoNarcos.GeneratedMSBuildEditorConfig.editorconfig
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\obj\Debug\netcoreapp3.1\MaxicoNarcos.AssemblyInfoInputs.cache
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\obj\Debug\netcoreapp3.1\MaxicoNarcos.AssemblyInfo.cs
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\obj\Debug\netcoreapp3.1\MaxicoNarcos.csproj.CoreCompileInputs.cache
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\obj\Debug\netcoreapp3.1\MaxicoNarcos.dll
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\obj\Debug\netcoreapp3.1\MaxicoNarcos.pdb
+E:\CodeHube\MaxicoNarcos\MaxicoNarcos\obj\Debug\netcoreapp3.1\MaxicoNarcos.genruntimeconfig.cache
