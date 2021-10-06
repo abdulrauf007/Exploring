@@ -223,11 +223,64 @@ namespace MaxicoNarcos
             //Example -16: Write a C# program to create a new string from a given string
             //where the first and last characters will change their positions
 
-            Console.WriteLine("Enter The Value");
-            var Chr = (Console.ReadLine());
-            Exercise ValueReplaced = new Exercise();
-            var output = ValueReplaced.FnLValueReplaced(Chr);
+            //Console.WriteLine("Enter The Value");
+            //var Chr = (Console.ReadLine());
+            //Exercise ValueReplaced = new Exercise();
+            //var output = ValueReplaced.FnLValueReplaced(Chr);
+            //Console.WriteLine(output);
+
+
+            //Example -17: Write a C# program to create a new string from a given string (length 1 or more )
+            //with the first character added at the front and back
+
+            //Console.WriteLine("Enter The String");
+            //var Input = (Console.ReadLine());
+            //Exercise valueAdd = new Exercise();
+            //var output = valueAdd.FnLvalueAdd(Input);
+            //Console.WriteLine(output);
+
+            //Example -18: Write a C# program to check two given integers and return true
+            //if one is negative and one is positive.
+
+            //Console.WriteLine("Enter The First Value");
+            //int X = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Enter The Second Value");
+            //int Y = Convert.ToInt32(Console.ReadLine());
+
+            //Exercise PN = new Exercise();
+            //var output = PN.PositiveNegative(X, Y);
+            //Console.WriteLine(output);
+
+            //Example -19: Write a C# program to compute the sum of two given integers,
+            //if two values are equal then return the triple of their sum.
+
+            //Console.WriteLine("Enter The First Value");
+            //int u = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Enter The Second Value");
+            //int v = Convert.ToInt32(Console.ReadLine());
+
+            //Exercise TripleS = new Exercise();
+            //var output = TripleS.TripleSum(u, v);
+            //Console.WriteLine(output);
+
+            //Example -20:  Write a C# program to get the absolute value of the difference between
+            //two given numbers. Return double the absolute value of the difference if the first
+            //number is greater than second
+
+            Console.WriteLine("Enter The First Value");
+            int Y = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter The Second Value");
+            int Z = Convert.ToInt32(Console.ReadLine());
+
+            Exercise AbsValue = new Exercise();
+            var output = AbsValue.AbsouluteValue(Y, Z);
             Console.WriteLine(output);
+
+
+
 
         }
     }
