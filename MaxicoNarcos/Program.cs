@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MaxicoNarcos
 {
@@ -269,18 +270,113 @@ namespace MaxicoNarcos
             //two given numbers. Return double the absolute value of the difference if the first
             //number is greater than second
 
-            Console.WriteLine("Enter The First Value");
-            int Y = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter The First Value");
+            //int Y = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Enter The Second Value");
-            int Z = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Enter The Second Value");
+            //int Z = Convert.ToInt32(Console.ReadLine());
 
-            Exercise AbsValue = new Exercise();
-            var output = AbsValue.AbsouluteValue(Y, Z);
-            Console.WriteLine(output);
+            //Exercise AbsValue = new Exercise();
+            //var output = AbsValue.AbsouluteValue(Y, Z);
+            //Console.WriteLine(output);
 
+            //Example -21:  Write a C# program to check the sum of the two given integers and
+            //return true if one of the integer is 20 or if their sum is 20.
 
+            //Console.WriteLine("Enter The Value of a");
+            //int a = Convert.ToInt32(Console.ReadLine());
 
+            //Console.WriteLine("Enter The Value of a");
+            //int b = Convert.ToInt32(Console.ReadLine());
+
+            //Exercise Sum20 = new Exercise();
+            //var SumValues20 = Sum20.SumValues(a,b);
+            //Console.WriteLine(SumValues20);
+
+            //Example -22: Write a C# program to check if an given integer is within 20 of 100 or 200.
+
+            //Console.WriteLine("Enter The Value of a");
+            //int a = Convert.ToInt32(Console.ReadLine());
+
+            //Exercise Value20 = new Exercise();
+            //var ValueLess = Value20.Lessthen20(a);
+            //Console.WriteLine(ValueLess);
+
+            //Example -23: Write a C# program to convert a given string into lowercase.
+
+            //Console.WriteLine("Enter the String");
+            //var line = (Console.ReadLine());
+            //Console.WriteLine(line.ToLower());
+
+            //Example -24: Write a C# program to find the longest word in a string.
+
+            //Console.WriteLine("Enter the String");
+            //var LongestWord = (Console.ReadLine());
+            //var result = LongestWord.Split(" ");
+
+            //int Value = 0;
+            //string word = " ";
+            //foreach (String s in result)
+            //{
+            //    if (s.Length > Value)
+            //    {
+            //        word = s;
+            //        Value = s.Length;
+            //    }
+
+            //}
+
+            //Console.WriteLine(word);
+
+            //Example 24.1 (For Loop):
+            //var listOfString = new List<string> { "this is arsalan", "this is danish", "he is bilal","This is fuunyy Guy" };
+            //Exercise ex = new Exercise();
+            //var maxStringValues = ex.LongestString(listOfString);
+            //for (int i = 0; i < maxStringValues.Count; i++)
+            //{
+            //    Console.WriteLine(maxStringValues[i]);
+            //}
+
+            //Example 24.2(Foreach):
+            //var listOfShortSting = new List<string>
+            //{
+            //    "This is Abdul",
+            //    "Codehub Solution",
+            //    "A good guy in the town"
+            //};
+            //Exercise SValue = new Exercise();
+            //var MinSvalues = SValue.ShortestWord(listOfShortSting);
+            //foreach (string x in MinSvalues)
+            //{
+            //    Console.WriteLine(x);
+            //}
+
+            //Example 24.3 (Shortest By For Loop)
+
+            //var shortestList = new List<string>
+            //{
+            //    "Hi, How are you",
+            //    "I am good and Fine",
+            //    "what about you"
+            //};
+
+            //Exercise ShortWordValue = new Exercise();
+            //var sWordList = ShortWordValue.ShortestByForLoop(shortestList);
+            //for (int i = 0; i < sWordList.Count; i++)
+            //{
+            //    Console.WriteLine(sWordList[i]);
+            //}
+
+            //Example 25: Write a C# program to print the odd numbers from 1 to 99. Prints one number per line
+
+            //Console.WriteLine("Print The Odd Values 0 to 99");
+            //for (int i = 1; i < (99 + 1); i++)
+            //{
+            //    if (i % 2 != 0)
+            //    {
+            //        Console.WriteLine(i.ToString());
+            //    }
+            //}
 
         }
     }
