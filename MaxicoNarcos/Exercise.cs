@@ -167,14 +167,14 @@ namespace MaxicoNarcos
 
         //Example 24.3 (For Loop Shortest)
 
-        public List<string> ShortestByForLoop (List<string> ShortByFor)
+        public List<string> ShortestByForLoop(List<string> ShortByFor)
         {
             var shortList = new List<string>();
             for (int i = 0; i < ShortByFor.Count; i++)
             {
                 var values = ShortByFor[i];
                 var splitWord = values.Split(" ");
-                int initial = 0;
+                int initial = ShortByFor[i].Length;
                 var shortWord = string.Empty;
                 for (int j = 0; j < splitWord.Length; j++)
                 {
@@ -187,7 +187,63 @@ namespace MaxicoNarcos
                 shortList.Add(shortWord);
             }
             return shortList;
+
         }
 
+        // Example: 26
+        public double SquareRootValue()
+        {
+            int b = 2;
+            var result = Math.Sqrt(b);
+            Console.WriteLine(b);
+            return result;
+        }
+        //Exm 26
+        public bool CheckPrimeNumber(int number)
+        {
+            int i;
+            for (i = 2; i <= number - 1; i++)
+            {
+                if (number % i == 0)
+                {
+                    return false;
+                }
+            }
+            if (i == number)
+            {
+                return true;
+            }
+            return false;
+        }
+        public void PrintPrimeNUmber ()
+        {
+            int sumValue = 0;
+            int i = 2;
+            for (i = 2; i < 500; i++)
+            {
+                if (CheckPrimeNumber(i))
+                {
+                    sumValue = sumValue + i;
+                }
+            }
+
+            Console.WriteLine(sumValue);
+        }
+
+
+        //public static bool isPrime(int n)
+        //{
+        //    int x = (int)Math.Floor(Math.Sqrt(n));
+
+        //    if (n == 1) return false;
+        //    if (n == 2) return true;
+
+        //    for (int i = 2; i <= x; ++i)
+        //    {
+        //        if (n % i == 0) return false;
+        //    }
+
+        //    return true;
+        //}
     }
 }

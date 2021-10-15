@@ -7,13 +7,13 @@ namespace MaxicoNarcos
     {
         static void Main(string[] args)
         {
-            //Example-1: Write a C# Sharp program to print Hello and your name in a separate line.
+            //Example - 1: Write a C# Sharp program to print Hello and your name in a separate line.
 
             //Console.WriteLine("Hell");
             //Console.WriteLine("Abdul Rauf Siddiqui");
 
 
-            //Example -2: Write a C# Sharp program to print the sum of two numbers.
+            //Example - 2: Write a C# Sharp program to print the sum of two numbers.
 
             //Console.WriteLine("Enter the Value 1");
             //int a = Convert.ToInt32(Console.ReadLine());
@@ -25,7 +25,7 @@ namespace MaxicoNarcos
             //Console.WriteLine(result);
 
 
-            //Example -3: Write a C# Sharp program to print the result of dividing two numbers.
+            //Example - 3: Write a C# Sharp program to print the result of dividing two numbers.
 
             //Console.WriteLine("Enter the Value of X");
             //int x = Convert.ToInt32(Console.ReadLine());
@@ -36,15 +36,15 @@ namespace MaxicoNarcos
             //var result = x / y;
             //Console.WriteLine(result);
 
-            //Example -4: Write a C# Sharp program to print the result of the specified operations.
+            //Example - 4: Write a C# Sharp program to print the result of the specified operations.
 
-            //Console.WriteLine(-1+4*3);
-            //Console.WriteLine((3+4)*10);
-            //Console.WriteLine((3-2)*(34+2));
-            //Console.WriteLine(14+-3*5+2);
-            //Console.WriteLine(33-3/332);
+            //Console.WriteLine(-1 + 4 * 3);
+            //Console.WriteLine((3 + 4) * 10);
+            //Console.WriteLine((3 - 2) * (34 + 2));
+            //Console.WriteLine(14 + -3 * 5 + 2);
+            //Console.WriteLine(33 - 3 / 332);
 
-            //Example -5:Write a C# Sharp program to swap two numbers. 
+            //Example - 5:Write a C# Sharp program to swap two numbers. 
 
             //Console.WriteLine("Enter The Value 1");
             //var Value1 = Convert.ToInt32(Console.ReadLine());
@@ -52,10 +52,10 @@ namespace MaxicoNarcos
             //Console.WriteLine("Enter The Value 2");
             //var Value2 = Convert.ToInt32(Console.ReadLine());
 
-            //Console.WriteLine("First Value"+ Value2);
-            //Console.WriteLine("Second Value"+ Value1);
+            //Console.WriteLine("First Value" + Value2);
+            //Console.WriteLine("Second Value" + Value1);
 
-            //Example -6: Write a C# Sharp program to print the output of multiplication of three numbers
+            //Example - 6: Write a C# Sharp program to print the output of multiplication of three numbers
             //which will be entered by the user
 
             //Console.WriteLine("Enter The Value Of A");
@@ -70,7 +70,7 @@ namespace MaxicoNarcos
             //var Output = A * B * C;
             //Console.WriteLine(Output);
 
-            //Example -7: Write a C# Sharp program to print on screen the output of
+            //Example - 7: Write a C# Sharp program to print on screen the output of
             //adding, subtracting, multiplying and dividing of two numbers which will be entered by the user
 
             //Console.WriteLine("Enter The First Value ");
@@ -84,14 +84,14 @@ namespace MaxicoNarcos
             //Console.WriteLine("Mul: {0}*{1}={2}", a, b, a * b);
             //Console.WriteLine("Div: {0}/{1}={2}", a, b, a / b);
 
-            //Example -8 Write a C# Sharp program that takes a number as input and print its multiplication table.
+            //Example - 8 Write a C# Sharp program that takes a number as input and print its multiplication table.
 
             //Console.WriteLine("Enter Table");
             //int TableValue = Convert.ToInt32(Console.ReadLine());
             //int result;
 
             //result = 1 * TableValue;
-            //Console.WriteLine("{0} x {1} = {2}",TableValue,1,result);
+            //Console.WriteLine("{0} x {1} = {2}", TableValue, 1, result);
 
             //result = 2 * TableValue;
             //Console.WriteLine("{0} x {1} = {2}", TableValue, 2, result);
@@ -120,9 +120,9 @@ namespace MaxicoNarcos
             //result = 10 * TableValue;
             //Console.WriteLine("{0} x {1} = {2}", TableValue, 10, result);
 
-            //Example -9: Write a C# Sharp program that takes four numbers as input to calculate and print the average
+            //Example - 9: Write a C# Sharp program that takes four numbers as input to calculate and print the average
 
-            //Console.WriteLine( "Enter The Value");
+            //Console.WriteLine("Enter The Value");
             //int a = Convert.ToInt32(Console.ReadLine());
 
             //Console.WriteLine("Enter The Value");
@@ -134,13 +134,13 @@ namespace MaxicoNarcos
             //Console.WriteLine("Enter The Value");
             //int d = Convert.ToInt32(Console.ReadLine());
 
-            //var result = (a + b + c + d)/4;
+            //var result = (a + b + c + d) / 4;
             //Console.WriteLine(result);
 
-            //Example -10 Write a C# Sharp program to that takes three numbers(x,y,z)
-            //as input and print the output of (x+y).z and x.y + y.z.
+            //Example - 10 Write a C# Sharp program to that takes three numbers(x,y,z)
+            //as input and print the output of(x + y).z and x.y + y.z.
 
-            //Console.WriteLine("Enter The Value Of X");
+            // Console.WriteLine("Enter The Value Of X");
             //int x = Convert.ToInt32(Console.ReadLine());
 
             //Console.WriteLine("Enter The Value Of Y");
@@ -152,10 +152,10 @@ namespace MaxicoNarcos
             //var Result1 = (x + y) * z;
             //var Result2 = (x * y) + (y * z);
 
-            //Console.WriteLine("Resul 01: ({0}+{1})* {2}: {3}", x,y,z,Result1);
+            //Console.WriteLine("Resul 01: ({0}+{1})* {2}: {3}", x, y, z, Result1);
             //Console.WriteLine("Resul 02: ({0}*{1}) + ({1}*{2}): {3}", x, y, z, Result2);
 
-            //Example -11: Write a C# Sharp program that takes an age (for example 20)
+            //Example - 11: Write a C# Sharp program that takes an age (for example 20)
             //as input and prints something as "You look older than 20"
 
             //Console.WriteLine("Enter Your age");
@@ -163,24 +163,24 @@ namespace MaxicoNarcos
 
             //if (age <= 20)
             //{
-            //    Console.WriteLine("Your are smart",age);
+            //    Console.WriteLine("Your are smart", age);
             //}
             //else
-            //    Console.WriteLine("You are olderthan 20",age);
+            //    Console.WriteLine("You are olderthan 20", age);
 
-            //Example -12:Write a C# program to that takes a number as input and display
-            //it four times in a row (separated by blank spaces),
+            //Example - 12:Write a C# program to that takes a number as input and display
+            //it four times in a row(separated by blank spaces),
             //and then four times in the next row, with no separation.
 
             //Console.WriteLine("Enter The Value");
             //int a = Convert.ToInt32(Console.ReadLine());
 
-            //Console.WriteLine("{0}{0}{0}{0}",a);
+            //Console.WriteLine("{0}{0}{0}{0}", a);
             //Console.WriteLine("{0} {0} {0} {0}", a);
             //Console.WriteLine("{0}   {0}   {0}   {0}", a);
             //Console.WriteLine("{0}    {0}    {0}    {0}", a);
 
-            //Example -13: Write a C# program that takes a number as input and
+            //Example - 13: Write a C# program that takes a number as input and
             //then displays a rectangle of 3 columns wide and 5 rows tall using that digit.
 
             //Console.WriteLine("Enter The Value of X");
@@ -192,18 +192,18 @@ namespace MaxicoNarcos
             //Console.WriteLine("{0} {0}", x);
             //Console.WriteLine("{0}{0}{0}", x);
 
-            //Example -14: Write a C# program to convert from celsius degrees to Kelvin and Fahrenheit.
+            //Example - 14: Write a C# program to convert from celsius degrees to Kelvin and Fahrenheit.
 
             //Console.WriteLine("Enter The Value");
             //double c = Convert.ToDouble(Console.ReadLine());
 
             //var Result01 = (c - 32) * 0.55;
-            //Console.WriteLine("Fahrenheit:{0}",Result01);
+            //Console.WriteLine("Fahrenheit:{0}", Result01);
 
-            //var Result02 = (c *1.8) + 32;
+            //var Result02 = (c * 1.8) + 32;
             //Console.WriteLine("celsius:{0}", Result02);
 
-            //Example -15: Write a C# program remove specified a character from a non-empty string
+            //Example - 15: Write a C# program remove specified a character from a non-empty string
             //using index of a character
 
             //Console.WriteLine("Enter The Starting Point");
@@ -213,7 +213,7 @@ namespace MaxicoNarcos
             //var b = Convert.ToInt32(Console.ReadLine());
 
             //Console.WriteLine("Enter The String");
-            //var c =(Console.ReadLine());
+            //var c = (Console.ReadLine());
 
             //Exercise removeString = new Exercise();
             //var Vremove = removeString.Remove(a, b, c);
@@ -221,7 +221,7 @@ namespace MaxicoNarcos
             //Console.WriteLine(Vremove);
 
 
-            //Example -16: Write a C# program to create a new string from a given string
+            //Example - 16: Write a C# program to create a new string from a given string
             //where the first and last characters will change their positions
 
             //Console.WriteLine("Enter The Value");
@@ -231,7 +231,7 @@ namespace MaxicoNarcos
             //Console.WriteLine(output);
 
 
-            //Example -17: Write a C# program to create a new string from a given string (length 1 or more )
+            //Example - 17: Write a C# program to create a new string from a given string (length 1 or more )
             //with the first character added at the front and back
 
             //Console.WriteLine("Enter The String");
@@ -240,7 +240,7 @@ namespace MaxicoNarcos
             //var output = valueAdd.FnLvalueAdd(Input);
             //Console.WriteLine(output);
 
-            //Example -18: Write a C# program to check two given integers and return true
+            //Example - 18: Write a C# program to check two given integers and return true
             //if one is negative and one is positive.
 
             //Console.WriteLine("Enter The First Value");
@@ -253,7 +253,7 @@ namespace MaxicoNarcos
             //var output = PN.PositiveNegative(X, Y);
             //Console.WriteLine(output);
 
-            //Example -19: Write a C# program to compute the sum of two given integers,
+            //Example - 19: Write a C# program to compute the sum of two given integers,
             //if two values are equal then return the triple of their sum.
 
             //Console.WriteLine("Enter The First Value");
@@ -266,7 +266,7 @@ namespace MaxicoNarcos
             //var output = TripleS.TripleSum(u, v);
             //Console.WriteLine(output);
 
-            //Example -20:  Write a C# program to get the absolute value of the difference between
+            //Example - 20:  Write a C# program to get the absolute value of the difference between
             //two given numbers. Return double the absolute value of the difference if the first
             //number is greater than second
 
@@ -280,7 +280,7 @@ namespace MaxicoNarcos
             //var output = AbsValue.AbsouluteValue(Y, Z);
             //Console.WriteLine(output);
 
-            //Example -21:  Write a C# program to check the sum of the two given integers and
+            //Example - 21:  Write a C# program to check the sum of the two given integers and
             //return true if one of the integer is 20 or if their sum is 20.
 
             //Console.WriteLine("Enter The Value of a");
@@ -290,10 +290,10 @@ namespace MaxicoNarcos
             //int b = Convert.ToInt32(Console.ReadLine());
 
             //Exercise Sum20 = new Exercise();
-            //var SumValues20 = Sum20.SumValues(a,b);
+            //var SumValues20 = Sum20.SumValues(a, b);
             //Console.WriteLine(SumValues20);
 
-            //Example -22: Write a C# program to check if an given integer is within 20 of 100 or 200.
+            //Example - 22: Write a C# program to check if an given integer is within 20 of 100 or 200.
 
             //Console.WriteLine("Enter The Value of a");
             //int a = Convert.ToInt32(Console.ReadLine());
@@ -302,13 +302,13 @@ namespace MaxicoNarcos
             //var ValueLess = Value20.Lessthen20(a);
             //Console.WriteLine(ValueLess);
 
-            //Example -23: Write a C# program to convert a given string into lowercase.
+            //Example - 23: Write a C# program to convert a given string into lowercase.
 
             //Console.WriteLine("Enter the String");
             //var line = (Console.ReadLine());
             //Console.WriteLine(line.ToLower());
 
-            //Example -24: Write a C# program to find the longest word in a string.
+            //Example - 24: Write a C# program to find the longest word in a string.
 
             //Console.WriteLine("Enter the String");
             //var LongestWord = (Console.ReadLine());
@@ -328,8 +328,8 @@ namespace MaxicoNarcos
 
             //Console.WriteLine(word);
 
-            //Example 24.1 (For Loop):
-            //var listOfString = new List<string> { "this is arsalan", "this is danish", "he is bilal","This is fuunyy Guy" };
+            //Example 24.1(For Loop):
+            //var listOfString = new List<string> { "this is arsalan", "this is danish", "he is bilal", "This is fuunyy Guy" };
             //Exercise ex = new Exercise();
             //var maxStringValues = ex.LongestString(listOfString);
             //for (int i = 0; i < maxStringValues.Count; i++)
@@ -351,7 +351,7 @@ namespace MaxicoNarcos
             //    Console.WriteLine(x);
             //}
 
-            //Example 24.3 (Shortest By For Loop)
+            //Example 24.3(Shortest By For Loop)
 
             //var shortestList = new List<string>
             //{
@@ -371,12 +371,33 @@ namespace MaxicoNarcos
 
             //Console.WriteLine("Print The Odd Values 0 to 99");
             //for (int i = 1; i < (99 + 1); i++)
-            //{
+            //}//{
             //    if (i % 2 != 0)
             //    {
             //        Console.WriteLine(i.ToString());
             //    }
+
+
+            //While Loop!
+
+            //int i = 0;
+            //while (i < 4)
+            //{
+            //    Console.WriteLine(i+10);
+            //    i++;
+
             //}
+
+            //SquareRootValue
+
+            //Exercise sqt = new Exercise();
+            //var val = sqt.SquareRootValue();
+            //Console.WriteLine(val);
+
+            //Example 26: Write a C# program to compute the sum of the first 500 prime numbers.
+
+            Exercise SumValue = new Exercise();
+             SumValue.PrintPrimeNUmber();
 
         }
     }
